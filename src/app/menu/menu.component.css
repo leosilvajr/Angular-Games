@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  span{
+    padding: 5px;
+  }
+
+  img{
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+  }
+
+  #titulo{
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
