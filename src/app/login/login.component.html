@@ -1,15 +1,14 @@
 <main>
     <section id="section-login">
-        <h1>Login</h1>
-        <form class="row g-3">         
-            <label for="staticUsuario" class="visually-hidden">Usuário</label>
-            <input type="text" class="form-control" id="staticEmail2" placeholder="Digite seu usuário">
-            <br>
-            <label for="inputPassword2" class="visually-hidden">Senha</label>
-            <input type="password" class="form-control" id="inputPassword2" placeholder="Senha">
-            <br>
-            <button type="submit" class="btn btn-primary mb-3">Acessar</button>
-            
-        </form>     
+      <h1>Login</h1>
+      <label for="staticEmail2" class="visually-hidden">Usuário</label>
+      <input type="text" class="form-control" id="staticEmail2" placeholder="Digite seu usuário" name="usuario" [(ngModel)]="usuario">
+      <br>
+      <label for="inputPassword2" class="visually-hidden">Senha</label>
+      <input type="password" class="form-control" id="inputPassword2" placeholder="Senha" name="senha" [(ngModel)]="senha">
+      <br>
+      <button type="submit" class="btn btn-success mb-3" (click)="fazerLogin()">Acessar</button>
+      <p *ngIf="error" class="text-danger">{{ error }}</p>
     </section>
-</main>
+  </main>
+  

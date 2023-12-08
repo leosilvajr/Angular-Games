@@ -1,22 +1,36 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
-  span{
-    padding: 5px;
-  }
+.netshoes-logo img {
+  height: 40px; 
+  width: auto;
+  margin-right: 10px; 
+  cursor: pointer;
+}
 
-  img{
-    height: 48px;
-    width: 48px;
-    cursor: pointer;
-  }
+.netshoes-title {
+  font-size: 24px; 
+  font-weight: bold;
+  text-decoration: none;
+  color: white; 
+  cursor: pointer;
+  margin-right: 20px; 
+}
 
-  #titulo{
-    cursor: pointer;
-  }
+.netshoes-menu {
+  margin-left: auto; 
+}
 
-  a{
-    text-decoration: none;
-    color: white;
-  }
+.netshoes-menu a {
+  text-decoration: none;
+  color:white; 
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.netshoes-login {
+  color: red;
+  padding: 8px 15px;
+  border-radius: 5px; 
+}
+.toolbar-black {
+  background-color: black;
+  color: white; 
+}

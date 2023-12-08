@@ -2,6 +2,7 @@
     height: 600px; 
     width: auto;
     object-fit: cover;
+    
   }
   
 #principal{
@@ -20,7 +21,9 @@ h2{
 }
 
 .example-card {
-  max-width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
 }
 
 .example-header-image {
@@ -29,7 +32,7 @@ h2{
 }
 
 mat-grid-list{
-  margin: 10px 0px;
+  margin: 50px 30px;
 }
 
 mat-card-title{
@@ -49,11 +52,12 @@ mat-card-actions{
 }
 
 mat-card-actions p{
-  color: red;
+  color: green; 
   font-size: 30px;
 }
 
-mat-card img{
-  height: 500px;
-  width: 500px;
+mat-card img {
+  max-width: 100%; 
+  height: 100%;
+  object-fit: cover; 
 }

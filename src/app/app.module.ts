@@ -18,6 +18,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { MenuComponent } from './menu/menu.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,8 @@ import { MenuComponent } from './menu/menu.component';
     MatInputModule,
     MatMenuModule,
     MatToolbarModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
